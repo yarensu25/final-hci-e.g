@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="StylesP.css">
+</head>
+<body>
+    <header>
+            <h1>Portfolio</h1>
+    </header>
+    <main>
+        <section class="project">
+            <h2>CSS PORTRAIT</h2>
+            <p>A CSS PORTRAIT FOR MY LOVE OF MY LIFE</p>
+            <img src="portfolio.jpg" alt="Project 1 Screenshot">
+            <p>Technologies used: HTML, CSS</p>
+        <a href="index.html" class="back-to-home">Back to Home</a>
+    </main>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Portfolio Projects</title>
+    <style>
+        body {
+            background-color: #000; /* Black background */
+            color: #ff0000; /* Red color for text */
+            font-family: 'Gothic', sans-serif; /* Gothic font for a horror feel */
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-top: 50px;
+            color: #150b0b; /* Red color for text */
+            text-shadow: 2px 2px 4px rgba(10, 7, 7, 0.5); /* Text shadow for a spooky effect */
+        }
+        
+        .project {
+            background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+            padding: 20px;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            color: #1ac4f3; /* Red color for text */
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.6s ease-in-out;
+            border: 2px solid transparent;
+            box-shadow: 0 0 10px 5px #130e0e; /* Red glow */
+        }
+        
+        .project:hover {
+            transform: translateY(-10px) rotateX(5deg) rotateY(5deg);
+            border: 2px solid #110a0a; /* Red border */
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 6px 12px rgba(236, 228, 228, 0.5); /* Red shadow */
+            transition: transform 0.6s ease-in-out;
+        }
+
+        .project:hover img {
+            transform: scale(1.05);
+        }
+
+        /* GitHub button styles remain unchanged */
+
+        /* Unique Home Button */
+        .home-button {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            background-color: #120909; /* Red color */
+            color: #fff; /* White color */
+            text-decoration: none;
+            border-radius: 5px;
+            z-index: 999; 
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3); /* Red shadow */
+        }
+
+        .home-button:hover {
+            background-color: #fff; /* White color */
+            color: #100707; /* Red color */
+            box-shadow: 0 6px 10px rgba(255, 0, 0, 0.5); /* Red shadow */
+            transform: translate(-50%, -50%) rotateX(-5deg);
+        }
+
+        /* Media Query for Mobile remains unchanged */
+    </style>
+</head>
+<body>
+</body>
+</html>
